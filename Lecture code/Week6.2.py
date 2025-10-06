@@ -44,17 +44,17 @@ for line in lines:
     line = float(line)
     prices.append(line)
 
-# def avg_calculator(price):
-#     return sum(prices)/len(prices)
+def avg_calculator(price):
+    return sum(prices)/len(prices)
 
-# print(avg_calculator(prices))
+print(avg_calculator(prices))
 
-# #average for first 5 days
+#average for first 5 days
 
-# def avg_first5days(prices):
-#     sum(prices[0:5])/5
+def avg_first5days(prices):
+    sum(prices[0:5])/5
 
-# print(avg_first5days(prices[0:5]))
+print(avg_first5days(prices[0:5]))
 
 
 
