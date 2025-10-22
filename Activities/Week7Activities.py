@@ -14,3 +14,16 @@ with open("/workspaces/Data_3500_notes/Activities/sentence.txt", "w") as file:
     file.write((name), "'s favoirte color is " + (color))
 
 
+
+# Programming Activity 2
+
+# Create a NumPy array of 100 numbers, initialized to 0. Then, change the 
+# array from 0s to random numbers.
+
+import numpy
+
+np = numpy.zeros(100)
+print(np)
+
+np = numpy.random.randint(50,size =100)
+print(np)
